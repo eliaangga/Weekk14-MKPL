@@ -1,4 +1,3 @@
-package src.main.java;
 
 public class NumberChecker {
     public static String checkNumber(int number) {
