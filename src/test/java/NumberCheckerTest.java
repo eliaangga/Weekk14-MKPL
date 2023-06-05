@@ -5,7 +5,9 @@ import org.junit.Test;
 
 public class NumberCheckerTest {
 
+
     @Test
+
     public void testCheckNumberGenap() {
         NumberChecker tChecker = new NumberChecker();
 
@@ -14,6 +16,11 @@ public class NumberCheckerTest {
 	
     }
 
+	
+	@Test
+
+
+
     public void testCheckNumberGanjil() {
         NumberChecker tChecker = new NumberChecker();
 
@@ -21,6 +28,5 @@ public class NumberCheckerTest {
 		assertEquals(tChecker.checkNumber(1),"Ganjil");
 	
     }
-
 
 }
