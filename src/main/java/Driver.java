@@ -1,4 +1,3 @@
-import src.main.java.NumberChecker;
 
 public class Driver {
     public static void main(String[] args) {
